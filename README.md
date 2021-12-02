@@ -1,6 +1,10 @@
 # bird-wiki
 > A bird wiki site where users can add photos to the collection
 
+## Overview
+![screenshot](./dev-resources/screenshot.png)
+[You can see this project here](www.indevelopment.com)
+
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
