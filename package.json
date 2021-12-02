@@ -1,0 +1,24 @@
+{
+  "name": "bird-wiki",
+  "version": "1.0.0",
+  "description": "> A bird wiki site where users can add photos to the collection",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/necogamy/bird-wiki.git"
+  },
+  "author": "foley179, Galxtime, Nicogamy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/necogamy/bird-wiki/issues"
+  },
+  "homepage": "https://github.com/necogamy/bird-wiki#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.7.1"
+  }
+}
