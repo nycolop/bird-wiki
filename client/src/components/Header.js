@@ -1,11 +1,12 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 export default function Header() {
   return (
     <header>
       <img id="logo" src="../resources/birdLogo.png" alt="logo" />
-      <a id="header" href="mockup.html"><h1>Bird-Wiki</h1></a>
-      <button id="login">login</button>
+      <Link to="/" id="header"><h1>Bird-Wiki</h1></Link>
+      <Link to="/Login" id="login">login</Link>
     </header>
   )
 } 

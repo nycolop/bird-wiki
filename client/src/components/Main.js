@@ -6,6 +6,7 @@ export default function Main() {
   return (
     <main>
       <Top />
+      <hr />
       <Bottom />
     </main>
   )
