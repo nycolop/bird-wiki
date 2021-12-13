@@ -15,6 +15,9 @@ body {
 h1, h2, h3 {
   margin: 0.5rem 0;
 }
+hr {
+  margin: 0;
+}
 .txtBox {
   margin: 0.2rem auto;
   display: block;
@@ -84,11 +87,33 @@ main {
   margin-top: 0;
   text-align: center;
 }
+#description {
+  float: left;
+  width: 70%;
+}
 #top {
   padding: 1rem;
+  height: 20rem;  
+  background-image:
+    linear-gradient(to right, #938E94 45%, transparent 75%),
+    url('../src/resources/top_background.jpeg')
+  ;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: contain;
 }
 #bottom {
   padding: 1rem;
+  text-align: center;
+}
+#searchBar {
+  border-radius: 0.5rem 0 0 0.5rem;
+  border-right: 0;
+}
+#searchButton {
+  border-radius: 0 0.5rem 0.5rem 0;
+  border-left: 0;
+  background-color: white;
 }
 
 /* footer */

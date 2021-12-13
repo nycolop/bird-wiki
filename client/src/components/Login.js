@@ -19,7 +19,7 @@ export default function Login() {
         <input type="password" placeholder="Enter Your Password" className="txtBox" required />
         <button type="submit" >Login</button>
         <div className="oneLine">No Account? <Link to="/Register">Register</Link></div>
-        <div className="oneLine">Forgot your password? <Link to="pwReset">Reset Password</Link></div>
+        <div className="oneLine">Forgot your password? {/*<Link to="pwReset">*/}Reset Password{/*</Link>*/}</div>
       </form>
     </div>
   )
